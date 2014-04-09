@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FFA5F28A18F4F768003A3BED /* WWDCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA5F28918F4F768003A3BED /* WWDCTableViewController.m */; };
 		FFD32B2218F4F5DB006489D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFD32B2118F4F5DB006489D7 /* Foundation.framework */; };
 		FFD32B2418F4F5DB006489D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFD32B2318F4F5DB006489D7 /* CoreGraphics.framework */; };
 		FFD32B2618F4F5DB006489D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFD32B2518F4F5DB006489D7 /* UIKit.framework */; };
@@ -14,7 +15,6 @@
 		FFD32B2E18F4F5DB006489D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD32B2D18F4F5DB006489D7 /* main.m */; };
 		FFD32B3218F4F5DB006489D7 /* WWDCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD32B3118F4F5DB006489D7 /* WWDCAppDelegate.m */; };
 		FFD32B3518F4F5DB006489D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFD32B3318F4F5DB006489D7 /* Main.storyboard */; };
-		FFD32B3818F4F5DB006489D7 /* WWDCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD32B3718F4F5DB006489D7 /* WWDCViewController.m */; };
 		FFD32B3A18F4F5DB006489D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFD32B3918F4F5DB006489D7 /* Images.xcassets */; };
 		FFD32B4118F4F5DB006489D7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFD32B4018F4F5DB006489D7 /* XCTest.framework */; };
 		FFD32B4218F4F5DB006489D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFD32B2118F4F5DB006489D7 /* Foundation.framework */; };
@@ -34,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FFA5F28818F4F768003A3BED /* WWDCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWDCTableViewController.h; sourceTree = "<group>"; };
+		FFA5F28918F4F768003A3BED /* WWDCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWDCTableViewController.m; sourceTree = "<group>"; };
 		FFD32B1E18F4F5DB006489D7 /* DominicSchira.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DominicSchira.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFD32B2118F4F5DB006489D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FFD32B2318F4F5DB006489D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,8 +47,6 @@
 		FFD32B3018F4F5DB006489D7 /* WWDCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWDCAppDelegate.h; sourceTree = "<group>"; };
 		FFD32B3118F4F5DB006489D7 /* WWDCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWDCAppDelegate.m; sourceTree = "<group>"; };
 		FFD32B3418F4F5DB006489D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FFD32B3618F4F5DB006489D7 /* WWDCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWDCViewController.h; sourceTree = "<group>"; };
-		FFD32B3718F4F5DB006489D7 /* WWDCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWDCViewController.m; sourceTree = "<group>"; };
 		FFD32B3918F4F5DB006489D7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FFD32B3F18F4F5DB006489D7 /* DominicSchiraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DominicSchiraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFD32B4018F4F5DB006489D7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -115,8 +115,8 @@
 				FFD32B3018F4F5DB006489D7 /* WWDCAppDelegate.h */,
 				FFD32B3118F4F5DB006489D7 /* WWDCAppDelegate.m */,
 				FFD32B3318F4F5DB006489D7 /* Main.storyboard */,
-				FFD32B3618F4F5DB006489D7 /* WWDCViewController.h */,
-				FFD32B3718F4F5DB006489D7 /* WWDCViewController.m */,
+				FFA5F28818F4F768003A3BED /* WWDCTableViewController.h */,
+				FFA5F28918F4F768003A3BED /* WWDCTableViewController.m */,
 				FFD32B3918F4F5DB006489D7 /* Images.xcassets */,
 				FFD32B2818F4F5DB006489D7 /* Supporting Files */,
 			);
@@ -250,8 +250,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFD32B3818F4F5DB006489D7 /* WWDCViewController.m in Sources */,
 				FFD32B2E18F4F5DB006489D7 /* main.m in Sources */,
+				FFA5F28A18F4F768003A3BED /* WWDCTableViewController.m in Sources */,
 				FFD32B3218F4F5DB006489D7 /* WWDCAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +461,7 @@
 				FFD32B5218F4F5DB006489D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFD32B5318F4F5DB006489D7 /* Build configuration list for PBXNativeTarget "DominicSchiraTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +470,7 @@
 				FFD32B5518F4F5DB006489D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
