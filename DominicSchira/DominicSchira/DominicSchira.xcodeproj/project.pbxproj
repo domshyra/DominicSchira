@@ -35,7 +35,7 @@
 
 /* Begin PBXFileReference section */
 		FFA5F28818F4F768003A3BED /* WWDCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWDCTableViewController.h; sourceTree = "<group>"; };
-		FFA5F28918F4F768003A3BED /* WWDCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWDCTableViewController.m; sourceTree = "<group>"; };
+		FFA5F28918F4F768003A3BED /* WWDCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = WWDCTableViewController.m; sourceTree = "<group>"; usesTabs = 0; };
 		FFD32B1E18F4F5DB006489D7 /* DominicSchira.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DominicSchira.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFD32B2118F4F5DB006489D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FFD32B2318F4F5DB006489D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
