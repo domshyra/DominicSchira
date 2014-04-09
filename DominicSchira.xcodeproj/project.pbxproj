@@ -79,6 +79,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF9CF39718F5144400EBE8F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FFD32B3318F4F5DB006489D7 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FF9CF39818F5145C00EBE8F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FF9CF39918F5146300EBE8F5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FFA5F28818F4F768003A3BED /* WWDCTableViewController.h */,
+				FFA5F28918F4F768003A3BED /* WWDCTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		FFD32B1518F4F5DB006489D7 = {
 			isa = PBXGroup;
 			children = (
@@ -112,11 +136,9 @@
 		FFD32B2718F4F5DB006489D7 /* DominicSchira */ = {
 			isa = PBXGroup;
 			children = (
-				FFD32B3018F4F5DB006489D7 /* WWDCAppDelegate.h */,
-				FFD32B3118F4F5DB006489D7 /* WWDCAppDelegate.m */,
-				FFD32B3318F4F5DB006489D7 /* Main.storyboard */,
-				FFA5F28818F4F768003A3BED /* WWDCTableViewController.h */,
-				FFA5F28918F4F768003A3BED /* WWDCTableViewController.m */,
+				FF9CF39818F5145C00EBE8F5 /* Model */,
+				FF9CF39718F5144400EBE8F5 /* View */,
+				FF9CF39918F5146300EBE8F5 /* Controller */,
 				FFD32B3918F4F5DB006489D7 /* Images.xcassets */,
 				FFD32B2818F4F5DB006489D7 /* Supporting Files */,
 			);
@@ -126,6 +148,8 @@
 		FFD32B2818F4F5DB006489D7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FFD32B3018F4F5DB006489D7 /* WWDCAppDelegate.h */,
+				FFD32B3118F4F5DB006489D7 /* WWDCAppDelegate.m */,
 				FFD32B2918F4F5DB006489D7 /* DominicSchira-Info.plist */,
 				FFD32B2A18F4F5DB006489D7 /* InfoPlist.strings */,
 				FFD32B2D18F4F5DB006489D7 /* main.m */,
